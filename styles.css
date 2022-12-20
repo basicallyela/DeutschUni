@@ -6,3 +6,167 @@ html{
 h1{
     font-size: 2rem;
 }
+h2{
+    font-size: 1.5rem;
+}
+nav {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+nav img{
+    margin: 10px;
+    height: 6vh;
+}
+nav p{
+    font-weight: 700;
+    font-size: 3vh;
+}
+nav button{
+    padding: 0.5rem;
+    border: solid 0.1rem #FFBF69;
+    margin: 7px;
+    background: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    font-size: 3vh;
+}
+nav button:hover{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: #FFBF69;
+}
+main .gif{
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98vw;
+    background-color: #FFBF69;
+}
+main .gif img{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+main .sveosimgifa{
+    width: 100%;
+    position: absolute;
+    border: none;
+    margin-top: 43%;
+    padding: none;
+    left: 0;
+    z-index: 1;
+    background-color: #2ec4b6;
+}
+main .opcenito{
+    margin: 0;
+    width: 95.55vw;
+    background-color: #ff9f1c;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+main .opcenito .column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-items: space-between;
+    text-align: center;
+}
+main .opcenito i{
+    font-size: 2rem;
+    text-align: center;
+}
+main .opcenito figcaption{
+    font-weight: 700;
+}
+
+main .ogamedesign{
+    margin: 0 20px;
+    text-align: justify;
+}
+
+main .oprogramu{
+    margin: 10px 20px;
+    text-align: justify;
+}
+
+main .ucenici{
+    width: 95.55vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+main .ucenici figure img{
+    width: 25vw;
+    border-radius: 0.5rem;
+}
+main .ucenici figure{
+    display: flex;
+    padding: 5px;
+    border-radius: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #cbf3f0;
+}
+main .ucenici figcaption{
+    text-align: center;
+    font-weight: 700;
+}
+
+main .stauciti{
+    margin: 10px 20px;
+    text-align: justify;
+}
+main .dozenten{
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+main .dozenten .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+main .dozenten figure{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 5px 0 5px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 13vw;
+    border-radius: 0.5rem;
+    background-color: #FFBF69;
+}
+main .dozenten figure img{
+    width: 10vw;
+    border-radius: 0.5rem;
+}
+main .dozenten figcaption{
+    text-align: center;
+}
+main .kariere{
+    margin: 10px 20px;
+    text-align: justify;
+}
+footer{
+    margin-top: 10px;
+    background-color: black;
+}
