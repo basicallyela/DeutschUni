@@ -2,7 +2,9 @@ html{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
 }
-
+body{
+    background-color: #FFBF69;
+}
 h1{
     font-size: 2rem;
 }
@@ -26,6 +28,7 @@ nav img{
     height: 6vh;
 }
 nav p{
+    color: black;
     font-weight: 700;
     font-size: 3vh;
 }
@@ -167,6 +170,10 @@ main .kariere{
     text-align: justify;
 }
 footer{
-    margin-top: 10px;
+    z-index: 10;
     background-color: black;
+    color: #cbf3f0;
+    text-align: center;
 }
+
+

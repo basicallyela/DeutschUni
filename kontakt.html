@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+      <style>
+        .nav p{
+            color: black;
+        }
+        .ccheader {
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+  }
+  
+  .ccheader h1 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 2.5em;
+    line-height: 1.3;
+  }
+  .ccheader {
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+  }
+  
+  .ccheader h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2.5em;
+    line-height: 1.3;
+  }
+  
+  /* Form CSS*/
+  .ccform {
+     margin: 0 auto;
+      width: 800px;
+  }
+  .ccfield-prepend{
+    margin-bottom:10px;
+    width:100%;
+  }
+  
+  .ccform-addon{
+    color: #FFBF69;
+    float:left;
+    padding:8px;
+    width:8%;
+    background:#FFFFFF;
+    text-align:center;  
+  }
+  
+  .ccformfield {
+    color:#000000; 
+    background:#FFFFFF;
+    border:none;
+    padding:15.5px;
+    width:91.9%;
+    display:block;
+    font-family: "Poppins";
+    font-size:14px;
+  }
+  
+ 
+  .ccbtn{
+    display:block;
+    border:none;
+    background-color: #FFBF69;
+    color:#FFFFFF;
+    padding:12px 25px;
+    cursor:pointer;
+    text-decoration:none;
+    font-weight:bold;
+  }
+  .ccbtn:hover{
+    background-color: #ff9f1c;
+  
+  }
+  .credit {
+    color:#fff;
+    width: 800px;
+    clear:both;
+  margin:0 auto;
+    line-height:25px;
+   padding: 25px 50px; 
+  }
+  .credit em{
+  margin-right:5px;
+  }
+  .credit a {
+  color: #0d2ed5;
+  font-weight: bold;
+  text-decoration: none;
+  }
+      </style>
+    </head>
+      <body style="position: relative;
+      top: 50px;
+      background-color: #FFBF69;
+      color: #fff;
+      font-weight: 400;
+      font-size: 1em;
+      margin: 0;
+      padding:0;
+      display:block;
+        font-family: 'Poppins';
+      padding-bottom:60px;">
+        <header>
+            <nav class=".nav">
+                <a href="index.html"><img src="https://www.mediadesign.de/themes/custom/frontend/dist/assets/logo-en.svg"></a>
+                <p>GAME DESIGN</p>
+                <a href="index.html"><button>ZURÜCK</button></a>
+            </nav>
+
+        </header>
+        <div class="ccheader">
+            <h1>Kontaktiere uns</h1> 
+        </div>
+        
+        <div class="wrapper">
+            <form method="post" action="" class="ccform">
+            <div class="ccfield-prepend">
+                <span class="ccform-addon"><i class="fa fa-user fa-2x"></i></span>
+                <input class="ccformfield" type="text" placeholder="Name und Nachname" required>
+            </div>
+            <div class="ccfield-prepend">
+                <span class="ccform-addon"><i class="fa fa-envelope fa-2x"></i></span>
+                <input class="ccformfield" type="text" placeholder="Email" required>
+            </div>
+            <div class="ccfield-prepend">
+                <span class="ccform-addon"><i class="fa fa-mobile-phone fa-2x"></i></span>
+                <input class="ccformfield" type="text" placeholder="Telefonnummer">
+            </div>
+             <div class="ccfield-prepend">
+                <span class="ccform-addon"><i class="fa fa-info fa-2x"></i></span>
+                <input class="ccformfield" type="text" placeholder="Thema" required>
+            </div>
+            <div class="ccfield-prepend">
+                <span class="ccform-addon"><i class="fa fa-comment fa-2x"></i></span>
+                <textarea class="ccformfield" name="comments" rows="8" placeholder="Botschaft" required></textarea>
+            </div>
+            <div class="ccfield-prepend">
+                <input class="ccbtn" type="submit" value="Einreichen">
+            </div>
+            </form>
+        </div>
+        
+        
+      </body>
+</html>
